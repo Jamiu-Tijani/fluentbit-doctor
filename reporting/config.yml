@@ -1,6 +1,6 @@
 interface: eth0
 fluent_bit_ip: 192.168.1.100  # Example IP, replace with actual
-splunk_ip: 10.58.173.35
+splunk_ip: 192.168.1.100  # Example IP, replace with actual
 splunk_port: 9995
 duration: 60
 output_file: fluent_to_splunk.pcap
